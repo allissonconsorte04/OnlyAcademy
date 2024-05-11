@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
   },
   header: {
     flex: 1,
+    paddingTop: '12%',
   },
   backgroundImage: {
     position: 'absolute',
@@ -23,6 +24,8 @@ const styles = StyleSheet.create({
   },
   profilePicture: {
     width: 100,
+    borderColor: '#fff',
+    borderWidth: 5,
     height: 100,
     borderRadius: 50,
   },
@@ -57,6 +60,29 @@ const styles = StyleSheet.create({
   contentContainer: {
     flex: 1,
     padding: 20,
+  },
+  followers: {
+    fontFamily: 'Poppins',
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  followerNumber: {
+    fontSize: 18,
+    color: '#000000',
+    fontWeight: 'bold',
+    fontFamily: 'Poppins',
+  },
+  followersContainer: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+  },
+  followersContent: {
+    alignContent: 'center',
+    alignItems: 'center',
+    marginBottom: 25,
+    paddingBottom: 80,
+    paddingHorizontal: 28,
   },
 });
 

@@ -8,12 +8,13 @@
 import React from 'react';
 
 import Profile from './src/pages/profile/Profile';
+import {SafeAreaView} from 'react-native';
 
 function App(): React.JSX.Element {
   return (
-    <>
+    <SafeAreaView>
       <Profile />
-    </>
+    </SafeAreaView>
   );
 }
 

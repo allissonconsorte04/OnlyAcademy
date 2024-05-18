@@ -8,12 +8,15 @@
 import React from 'react';
 
 import Profile from './src/pages/profile/Profile';
+import {SafeAreaView} from 'react-native';
+import Camera from './src/pages/camera/Camera';
 
 function App(): React.JSX.Element {
   return (
-    <>
-      <Profile />
-    </>
+    <SafeAreaView style={{flex: 1}}>
+      <Camera />
+      {/* <Profile /> */}
+    </SafeAreaView>
   );
 }
 

@@ -14,8 +14,8 @@ import Camera from './src/pages/camera/Camera';
 function App(): React.JSX.Element {
   return (
     <SafeAreaView style={{flex: 1}}>
-      <Camera />
-      {/* <Profile /> */}
+      {/* <Camera /> */}
+      <Profile />
     </SafeAreaView>
   );
 }

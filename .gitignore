@@ -3,6 +3,9 @@
 # dependencies
 node_modules/
 
+.yarn/
+android/
+
 # Expo
 .expo/
 dist/
